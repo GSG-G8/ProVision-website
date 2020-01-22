@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+/* header styling */
 html ::-webkit-scrollbar {
   width: 0px;
 }
@@ -68,16 +69,47 @@ header a {
 
 
 hr {
-  width: 80px;
-  height: 3px;
-  margin-top: 20px;
+  width: 200px;
+  height: 5px;
   background-color: teal;
   border-radius: 80px;
 }
 
 
+/* About section styling*/
+.myWork {
+  margin: 100px auto;
+  }
+  .myWork img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  }
+  
+  .about {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 650px;
+  padding-top: 15px;
+  }
+  .about p {
+    padding: 5px;
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .textAbout {
+  font-size: 35px;
+  margin-bottom: 35px;
+  }
+  
 
-
+/* Team section Styling*/
 .team-section{
     display: flex;
 
@@ -116,7 +148,6 @@ img:hover{
 }
 
 .team-section  section div p {
-    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
 .team-section  section div h3{
