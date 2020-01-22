@@ -1,14 +1,26 @@
-# ProVision-website
-# Portofolio for ProVision Company
+
+# ProVision Company
 ---
 This portofolio is made by proVision coders team to present its services for cleints.
+
+Our website responsive and accesible.
 ## Services : 
 . Build semantic and accessible web pages
 
 . Design responsive web pages 
 
-. Secure data basis
+. Secure databases
 
+---
+## Team members
+. Hassan Al-Najar
+
+. Ahmed Safi
+
+. Abeer Karam
+
+. Lina Ebeid
+s
 ---
 
 ## Work flow
@@ -20,36 +32,14 @@ each pair worked on two features.
 ---
 
 ## Portofolio features
-. Header section 
 
-. About section
+. [Header section](https://gsg-g8.github.io/ProVision-website/) Our Header section contains navigation bar and 
 
-. About team section
+. [About section](https://gsg-g8.github.io/ProVision-website/) Who we are, our services 
 
-. Footer section (contacts)
+. [About team section](https://gsg-g8.github.io/ProVision-website/) Team members ,inforamations ,Github and LinkedIn links.
 
----
-
-### Header section
-
-<!--img-->
-
----
-
-### About section 
-
-<!--img-->
-
----
-
-### About Team section
-
-<!--img-->
-
----
-### Footer section 
-
-<!--img--> 
+. [Footer section (contacts)](https://gsg-g8.github.io/ProVision-website/) Contacts info .
 
 ---
 ___
@@ -60,7 +50,10 @@ ___
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what would you like to change.
 
+---
+---
 ## Wish List
-If we had more time, we would have used CSS Animation.
+. If we had real portofolio, we would insert it as project sample.
 
+. If we had more time , we would fixed a bug to improve accessability.
 
