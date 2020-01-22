@@ -11,12 +11,12 @@
 </head>
 <body>
 
-    <header class="header">
+    <header class="header" id="hedader">
         <nav>
             <ul class="menu">
                 <li><a href="#About">About</a></li>
                 <li><a href="#Teamm">Team</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
             <div class="men">
             <a id="logo"><img class="logoImg" src="images/logo.png" alt="ProLogo"> 
@@ -26,8 +26,8 @@
         <h1 class="brf">MAKE YOUR WEBSITE THE IDEAL PROFIT CENTER</h1>
     </header>
 
-    
-    <section class="about" id="About">
+  <div id="About"></div>
+    <section class="about"  >
       <h1 class="textAbout">Who We Are</h1 >
       <p> 
         Professional work at building websites from concept all the way to completion from the buttom up, fashioning everything from the home page to site layout and function. 
@@ -40,8 +40,8 @@
     </section>
 
 
-  
-    <h2 id="Teamm">OUR TEAM</h2>
+  <div id="Teamm"></div>
+    <h2 >OUR TEAM</h2>
     <section class="team-section">
             <section class='first-member'>
                 <img src="./images/Team.jpeg" alt="Hassan Alnajjar" class="memberImg">
@@ -107,6 +107,7 @@
     
  
     <footer>
+   <div class="inFormation">
    
       <section class="contactOne">
         <h4>Contact US</h4>
@@ -129,9 +130,13 @@
         <textarea id='message'></textarea>     
       </div>
       </section>
-  
-      <p class="cRight">&copy 2020 proVision. All Rights Reserved</p>
+    
+    </div>
+      <p  id="Contact" class="cRight">&copy 2020 proVision. All Rights Reserved</p>
     </footer>
+    
+    
+        <a href="#hedader" id="goUp" class="goUp"> <img src="./images/goTop.png" alt="go top"> </a>
     
    <script src="main.js"></script> 
 
