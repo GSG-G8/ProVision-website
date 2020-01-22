@@ -1,13 +1,11 @@
-
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 /* header styling */
 html ::-webkit-scrollbar {
   width: 0px;
 }
-
 .header {
   width: 100%;
   height: 500px;
@@ -24,7 +22,6 @@ html ::-webkit-scrollbar {
   position: absolute;
   top: 0;
 }
-
 nav {
   background-color: rgba(58, 38, 102, 0.5);
   z-index: 5;
@@ -32,7 +29,6 @@ nav {
   top: 0;
   width: 100%;
 }
-
 .menu {
   list-style-type: none;
   display: flex;
@@ -42,40 +38,29 @@ nav {
   top: 30px;
   right: 20px;
 }
-
-
 header a {
   text-decoration: none;
   padding: 20px;
   color: white;
 }
-
 #logo {
   display: flex;
   justify-content: start;
   align-items: center;
   clear: both;
 }
-
 .logoImg {
   width: 40px;
 }
-
-
 .brf {
   margin-top: 15%;
 }
-
-
-
 hr {
   width: 200px;
   height: 5px;
   background-color: teal;
   border-radius: 80px;
 }
-
-
 /* About section styling*/
 .myWork {
   margin: 100px auto;
@@ -87,7 +72,6 @@ hr {
   height: 200px;
   margin-left: 45px;
   }
-  
   .about {
   min-height: 500px;
   display: flex;
@@ -107,60 +91,114 @@ hr {
   font-size: 35px;
   margin-bottom: 35px;
   }
-  
-
 /* Team section Styling*/
 .team-section{
     display: flex;
-
     background-color: blanchedalmond;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1rem 0;
 }
-.memberImg{
-    width: 250px;
-    height: 300px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 
+.team-section section div p {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
 }
-img:hover{
+.team-section section div h3 {
+  margin-bottom: 5px;
+}
+h2 {
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: blanchedalmond;
+  font-family: "Noto Serif", serif;
+}
+.memberImg {
+  width: 250px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+img:hover {
   transform: scale(1.1);
 }
-.team-section section{
-    border: 2px solid rgba(219, 141, 235, 0.733);
-    border-radius: 13px;
-    margin-bottom: 8px;
-
+.team-section section {
+  border: 2px solid rgba(219, 141, 235, 0.733);
+  border-radius: 13px;
+  margin-bottom: 8px;
+   width: 250px;
 }
-.team-section  section div {
-    padding: 10px;
+.team-section section div {
+  padding: 10px;
 }
-.team-section  section div a{
-    margin-right: 5px;
-    text-decoration: none;
+.team-section section div a {
+  margin-right: 5px;
+  text-decoration: none;
 }
-
-
-.team-section section{
-    width: 250px;
+/*footer - contacts*/
+footer {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  position: relative;
+  background-image: linear-gradient(
+      rgba(88, 88, 180, 0.705),
+      rgba(86, 84, 156, 0.9)
+    ),
+    url(./images/fotterBack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(255, 255, 255);
+  font-family: 'Noto Serif', serif;
 }
-
-.team-section  section div p {
-    font-family: Arial, Helvetica, sans-serif;
+.contactOne {
+  margin-top: 40px;
+  padding: 5px;
 }
-.team-section  section div h3{
-    margin-bottom: 5px;
+.contactOne p{
+  margin-top: 15px;
 }
-h2{
-    padding-top: 20px;
-    margin-top: 20px;
-    text-align: center;
-    background-color: blanchedalmond;
-    font-family: 'Noto Serif', serif;
+.contactOne a{
+  color: rgb(34, 39, 8);
 }
-html ::-webkit-scrollbar{
-    width: 0;
+.contactTwo {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
+.contactTwo input {
+  margin: 5px;
+  border-radius: 5px;
+  background: none;
+  border: 2px solid rgb(255, 255, 255);
+  height: 20px;
+  width: 200px;
+  outline: none;
+  color: white;
+}
+#message {
+  height: 100px;
+  width: 200px;
+  outline: none;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.divMessage {
+  display: flex;
+  align-items: baseline;
+}
+.cRight {
+  position: absolute;
+  bottom: 5px;
+}
