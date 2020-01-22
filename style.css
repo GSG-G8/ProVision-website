@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* header styling */
 html ::-webkit-scrollbar {
   width: 0px;
 }
@@ -21,7 +22,6 @@ html ::-webkit-scrollbar {
   position: absolute;
   top: 0;
 }
-
 nav {
   background-color: rgba(58, 38, 102, 0.5);
   z-index: 5;
@@ -29,7 +29,6 @@ nav {
   top: 0;
   width: 100%;
 }
-
 .menu {
   list-style-type: none;
   display: flex;
@@ -39,68 +38,66 @@ nav {
   top: 30px;
   right: 20px;
 }
-
 header a {
   text-decoration: none;
   padding: 20px;
   color: white;
 }
-
 #logo {
   display: flex;
   justify-content: start;
   align-items: center;
   clear: both;
 }
-
 .logoImg {
   width: 40px;
 }
-
 .brf {
   margin-top: 15%;
 }
-
 hr {
-  width: 80px;
-  height: 3px;
-  margin-top: 20px;
+  width: 200px;
+  height: 5px;
   background-color: teal;
   border-radius: 80px;
 }
-
-.team-section {
+/* About section styling*/
+.myWork {
+  margin: 100px auto;
+  }
+  .myWork img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin-left: 45px;
+  }
+  .about {
+  min-height: 500px;
   display: flex;
-
-  background-color: blanchedalmond;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 1rem 0;
-}
-.memberImg {
-  width: 250px;
-  height: 300px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-img:hover {
-  transform: scale(1.1);
-}
-.team-section section {
-  border: 2px solid rgba(219, 141, 235, 0.733);
-  border-radius: 13px;
-  margin-bottom: 8px;
-}
-.team-section section div {
-  padding: 10px;
-}
-.team-section section div a {
-  margin-right: 5px;
-  text-decoration: none;
-}
-
-.team-section section {
-  width: 250px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 650px;
+  padding-top: 15px;
+  }
+  .about p {
+    padding: 5px;
+    width: 60%;
+    font-size: 18px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .textAbout {
+  font-size: 35px;
+  margin-bottom: 35px;
+  }
+/* Team section Styling*/
+.team-section{
+    display: flex;
+    background-color: blanchedalmond;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem 0;
 }
 
 .team-section section div p {
@@ -117,7 +114,29 @@ h2 {
   background-color: blanchedalmond;
   font-family: "Noto Serif", serif;
 }
-
+.memberImg {
+  width: 250px;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.team-section section {
+  border: 2px solid rgba(219, 141, 235, 0.733);
+  border-radius: 13px;
+  margin-bottom: 8px;
+   width: 250px;
+}
+.team-section section div {
+  padding: 10px;
+}
+.team-section section div a {
+  margin-right: 5px;
+  text-decoration: none;
+}
+/*footer - contacts*/
 footer {
   width: 100%;
   height: 300px;
@@ -154,10 +173,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
 }
-
 .contactTwo input {
   margin: 5px;
   border-radius: 5px;
@@ -167,7 +183,6 @@ footer {
   width: 200px;
   outline: none;
   color: white;
-
 }
 #message {
   height: 100px;
@@ -183,7 +198,6 @@ footer {
   display: flex;
   align-items: baseline;
 }
-
 .cRight {
   position: absolute;
   bottom: 5px;
