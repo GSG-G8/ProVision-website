@@ -43,8 +43,14 @@ nav {
 header a {
   text-decoration: none;
   padding: 20px;
-  color: white;
+  color: rgb(245, 185, 21);
+  
 }
+.vision{
+  font-size:30px;
+  color: aliceblue;
+}
+
 #logo {
   display: flex;
   justify-content: start;
@@ -262,6 +268,9 @@ margin-top: 80px;
   header a {
     text-decoration: none;
     padding: 20px 7px;
-    color: white;
+  }
+  .vision{
+    font-size:20px;
+    color: aliceblue;
   }
 }
