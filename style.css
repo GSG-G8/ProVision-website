@@ -56,10 +56,16 @@ header a {
 }
 .logoImg {
   width: 40px;
+
+  animation: logTran 3s infinite;
 }
-.animeMove {
+@keyframes logTran{
+0%{
+  transform: rotate(0deg);
+}
+100%{
   transform: rotate(360deg);
-  transition: 2s;
+}
 }
 .brf {
   margin-top: 15%;
