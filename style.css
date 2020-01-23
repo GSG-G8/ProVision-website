@@ -3,9 +3,6 @@
   padding: 0;
 }
 /* header styling */
-html ::-webkit-scrollbar {
-  width: 0px;
-}
 .header {
   width: 100%;
   height: 500px;
