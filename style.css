@@ -53,6 +53,7 @@ header a {
   justify-content: start;
   align-items: center;
   clear: both;
+  padding: 20px;
 }
 .logoImg {
   width: 40px;
