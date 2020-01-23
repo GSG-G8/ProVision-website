@@ -60,7 +60,7 @@ header a {
 .logoImg {
   width: 40px;
 
-  animation: logTran 2s infinite;
+  animation: logTran 3s infinite;
 }
 @keyframes logTran{
 0%{
